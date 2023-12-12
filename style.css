@@ -1,0 +1,145 @@
+@font-face {
+    font-family: Space Mono;
+    src: url(assets/fonts/Space_Mono/SpaceMono-Bold.ttf);
+    font-weight: bold;
+}
+@font-face {
+    font-family: Space Mono;
+    src: url(assets/fonts/Space_Mono/SpaceMono-Regular.ttf);
+    font-weight: 400;
+}
+@font-face {
+    font-family: Lexend Deca;
+    src: url(assets/fonts/Lexend_Deca/LexendDeca-Regular.ttf);
+    font-weight: 410;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline:0;
+}
+.img0{
+    width: 100%;
+}
+.m0{
+    font-family: Space Mono;
+    font-weight: bold;
+    font-size: 50px;
+}
+.m1{
+    font-family: Space Mono;
+    font-weight: 400;
+    font-size: 20px;
+}
+.carousel-inner {
+    height: 50vh;
+  }
+.div0{
+    top: 50%; 
+    left: 50%; 
+    transform: translate(-50%, -50%); 
+    color: white; 
+    font-size: 3rem;
+}
+.div1{
+    height: 2vh;
+    background-color: #E5ECF4;
+}
+.footer{
+    background-color: #495567;
+}
+.p1{
+    color: #939CAA;
+}
+.buton{
+    margin-left: 30vw;
+}
+.footer1{
+    background-color: #333A44;
+    height: 10vh;
+}
+.ul1{
+    list-style-type: none;
+    margin-left: vw;
+    margin-top: 2vh;
+}
+.m2{
+    font-family: Space Mono;
+    font-weight: bold;
+    font-size: 20px;
+    color: #939CAA;
+    margin-left: 3vw;
+}
+.div3{
+    margin-top: 3vh;
+    margin-left: 22vw;
+}
+.re1{
+    margin-left: 2vw;
+}
+.b1{
+    margin-top: 10vh;
+}
+@media screen and (max-width: 768px){
+    .carousel-inner {
+        min-height: 00px;
+        
+    }
+    .m0{
+        font-family: Space Mono;
+        font-weight: bold;
+        font-size: 20px;
+    }
+    .m1{
+        font-family: Space Mono;
+        font-weight: 400;
+        font-size: 8px;
+    }
+    .buton{
+        width: 10vw;
+    }
+    .div0{
+        top: 40%; 
+        left: 50%; 
+        transform: translate(-50%, -50%); 
+        color: white; 
+        font-size: 3rem;
+    }
+    .img0{
+        width: 100%;
+        height: 100%;
+    }
+    .div1{
+        height: 0vh;
+        background-color: #E5ECF4;
+    }
+    .buton{
+        margin-left: 0vw;
+    }
+    .footer1{
+        background-color: #333A44;
+        height: 45vh;
+    }
+    .img1{
+        margin-left: 25vw;
+    }
+    .ul1{
+        list-style-type: none;
+        margin-left: 15vw;
+        margin-top: 2vh;
+    }
+    .m2{
+        font-family: Space Mono;
+        font-weight: bold;
+        font-size: 20px;
+        color: #939CAA;
+        margin-left: 3vw;
+        margin-top: 2vh;
+    }
+    .buton20{
+        margin-left: 20vw;
+    }
+}
+  
